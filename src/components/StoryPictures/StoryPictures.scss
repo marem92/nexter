@@ -1,0 +1,6 @@
+@import '../../scss-variables.scss';
+
+.StoryPictures {
+  background-color: $color-primary;
+  grid-column: full-start / col-end 4;
+}

@@ -1,0 +1,6 @@
+@import '../../scss-variables.scss';
+
+.Header {
+  background-color: $color-grey-dark-1;
+  grid-column: full-start / col-end 6;
+}
