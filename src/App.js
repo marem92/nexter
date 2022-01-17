@@ -1,10 +1,26 @@
 import React from 'react';
 import './App.scss';
 
+import Sidebar from './components/Sidebar/Sidebar';
+import Header from './components/Header/Header';
+import Realtors from './components/Realtors/Realtors';
+import Features from './components/Features/Features';
+import StoryPictures from './components/StoryPictures/StoryPictures';
+import StoryContent from './components/StoryContent/StoryContent';
+import Gallery from './components/Gallery/Gallery';
+import Footer from './components/Footer/Footer';
+
 const App = () => {
   return (
     <div className="App">
-      <h1>App</h1>
+      <Sidebar />
+      <Header />
+      <Realtors />
+      <Features />
+      <StoryPictures />
+      <StoryContent />
+      <Gallery />
+      <Footer />
     </div>
   );
 };
