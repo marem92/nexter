@@ -7,6 +7,7 @@ import Realtors from './components/Realtors/Realtors';
 import Features from './components/Features/Features';
 import StoryPictures from './components/StoryPictures/StoryPictures';
 import StoryContent from './components/StoryContent/StoryContent';
+import Homes from './components/Homes/Homes';
 import Gallery from './components/Gallery/Gallery';
 import Footer from './components/Footer/Footer';
 
@@ -19,6 +20,7 @@ const App = () => {
       <Features />
       <StoryPictures />
       <StoryContent />
+      <Homes />
       <Gallery />
       <Footer />
     </div>
