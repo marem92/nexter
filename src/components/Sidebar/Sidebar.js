@@ -4,7 +4,7 @@ import './Sidebar.scss';
 const Sidebar = () => {
   return (
     <div className="Sidebar">
-      <h1>Sidebar</h1>
+      <button className="nav-btn"></button>
     </div>
   );
 };
